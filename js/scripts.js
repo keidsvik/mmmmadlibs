@@ -1,8 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
-    console.console.log();
-     (BLah blah blah)
     const person1Input = $("input#person1").val();
     console.log(person1Input);
     const person2Input = $("input#person2").val();
@@ -11,7 +9,7 @@ $(document).ready(function() {
     const verbInput = $("input#verb").val();
     const nounInput = $("input#noun").val();
 
-    $("person1").text(person1Input);
+    $(".person1").text(person1Input);
     $(".person2").text(person2Input);
     $(".animal").text(animalInput);
     $(".exclamation").text(exclamationInput);
